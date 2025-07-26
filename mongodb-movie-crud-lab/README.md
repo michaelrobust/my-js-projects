@@ -1,15 +1,37 @@
 # MongoDB Movie CRUD Lab
 
-A backend API for managing movie and review documents using MongoDB and Express.  
-Includes full CRUD operations with modular helpers and MongoDB collection handling.
+A backend API built with Node.js, Express, and MongoDB for managing movie and review documents.  
+Implements full CRUD operations with modular file structure and robust error handling.
 
-## Features
-- Add/edit/delete movies
-- Add/edit/delete reviews
-- Modular MongoDB connection setup
-- Express-based route handling
+## ✨ Features
 
-## Technologies
+- Create, Read, Update, Delete operations for:
+  - 🎬 Movies
+  - 📝 Reviews
+- Modular MongoDB connection logic
+- Separation of routes, configuration, and data layers
+- Express middleware integration
+
+## 📁 Folder Structure
+mongodb-movie-crud-lab/
+├── app.js                 # Main server entry
+├── movies.js              # Movie handlers
+├── reviews.js             # Review handlers
+├── mongoConnection.js     # MongoDB client setup
+├── mongoCollections.js    # Collection factory
+├── settings.js            # DB config
+├── package.json
+└── README.md
+
+## 🛠 Tech Stack
+
 - Node.js
 - Express
-- MongoDB
+- MongoDB (Native driver)
+- JavaScript (ES6)
+
+## 🚀 Getting Started
+
+```bash
+npm install
+node app.js
