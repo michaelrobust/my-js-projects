@@ -12,3 +12,16 @@ Developed as part of CS546 Web Programming coursework.
 - `DELETE /movies/:id` – Delete a movie by ID
 
 ## 📁 Project Structure
+cs546-lab6-movie-api/
+├── app.js               # Express app setup
+├── config/              # MongoDB connection config
+├── data/                # Data access logic for movies
+├── routes/              # Express route handlers
+├── package.json
+└── README.md
+
+## 📦 Tech Stack
+
+- Node.js
+- Express
+- MongoDB
