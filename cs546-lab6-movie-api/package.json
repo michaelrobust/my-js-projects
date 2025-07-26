@@ -1,0 +1,16 @@
+{
+  "name": "cs546_lab6",
+  "version": "1.0.0",
+  "description": "Movie API for CS-546 Lab 6",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "YuKai_Yeh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0"
+  }
+}
