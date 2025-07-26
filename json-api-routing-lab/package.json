@@ -1,0 +1,16 @@
+{
+    "name": "lab5-json-routes",
+    "version": "1.0.0",
+    "description": "Lab 5 - JSON Routes with Express and Axios",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "axios": "^1.4.0"
+    },
+    "author": "YuKai Yeh",
+    "license": "ISC"
+  }
