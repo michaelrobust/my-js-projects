@@ -1,4 +1,4 @@
-# async-data-lookup-lab
+# Async-data-lookup-lab
 
 This lab demonstrates the use of asynchronous JavaScript functions to fetch, parse, and analyze JSON data from simulated external sources.
 
