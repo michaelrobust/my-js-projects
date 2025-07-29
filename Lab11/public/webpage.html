@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>TV Maze Show Browser</title>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <link rel="stylesheet" href="main.css">
+ </head>
+ <body>
+     <header>
+         <h1>TV Maze Show Browser</h1>
+     </header>
+ 
+     <main>
+         <form id="searchForm">
+             <label for="search_term">Search for TV Shows:</label>
+             <input type="text" id="search_term" placeholder="Enter show name..." />
+             <button type="submit">Search</button>
+         </form>
+ 
+         <a id="homeLink" href="/" style="display: none;">Back to All Shows</a>
+ 
+         <ul id="showList" style="display: none;"></ul>
+ 
+         <div id="show" style="display: none;"></div>
+     </main>
+ 
+     <footer>
+         <p>CS-546 Lab 11 - AJAX Application</p>
+         <p>Student Name: YuKaiYeh | Student ID: 20033412 </p>
+         <p>Additional Info: TV Maze API Integration Project</p>
+     </footer>
+ 
+     <script src="main.js"></script>
+ </body>
+ </html>
